@@ -1,0 +1,56 @@
+.curriculumListContainer {
+    width: 100%;
+}
+
+.curriculumList {
+    padding: 6rem 0;
+    margin: auto;
+    display: flex;
+    width: 90%;
+    max-width: 1280px;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem
+}
+
+.curriculumListTitle {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.modulesListContainer {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.modulesList {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.buttonStyle {
+    position: relative;
+    width: 47%;
+}
+
+@media (max-width: 768px) {
+    .buttonStyle {
+        width: 100%;
+    }
+
+    .curriculumList {
+    padding: 4rem 0;
+    margin: auto;
+    display: flex;
+    width: 90%;
+    max-width: 1280px;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem
+}
+}

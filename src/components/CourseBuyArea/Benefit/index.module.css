@@ -1,0 +1,19 @@
+.benefit {
+    width: 40%;
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.imgContainer {
+    width: 30%;
+}
+
+@media (max-width: 768px) {
+    .benefit {
+        width: 100%
+    }
+}

@@ -1,0 +1,38 @@
+.cardHeader {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.cardTitle {
+    vertical-align: middle;
+    font-family: "Sora", Sans-serif;
+    font-weight: 600;
+}
+
+.imgCard {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
+.cardParagraph {
+    vertical-align: middle;
+    margin-bottom: 1.25rem;
+}
+
+.card {
+    font-size: 1rem;
+    box-shadow: 0 0 21px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    border: solid 0.8px rgb(146, 146, 146);
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
