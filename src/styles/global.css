@@ -89,3 +89,12 @@ h6 {
   background-clip: text;
   transition: all .8s;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgb(81, 67, 233), rgb(168, 28, 193));
+}
